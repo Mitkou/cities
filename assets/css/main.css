@@ -1,3 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600i');
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_black-webfont.woff2') format('woff2'),
+         url('butler_black-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_bold-webfont.woff2') format('woff2'),
+         url('butler_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_extrabold-webfont.woff2') format('woff2'),
+         url('butler_extrabold-webfont.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_light-webfont.woff2') format('woff2'),
+         url('butler_light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_medium-webfont.woff2') format('woff2'),
+         url('butler_medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_regular-webfont.woff2') format('woff2'),
+         url('butler_regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('butler_ultra_light-webfont.woff2') format('woff2'),
+         url('butler_ultra_light-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
 body, ul, li {
   margin: 0;
   padding: 0;
@@ -8,7 +66,8 @@ ul {
 }
 
 h1, h2{
-  font-family: "Trebuchet MS", sans-serif;
+  font-family: "Butler", serif;
+  font-weight: 700;
 }
 
 .header {
@@ -67,17 +126,13 @@ h1, h2{
           font-size: 30px;
           letter-spacing: 2px;
           text-transform: uppercase;
-          font-weight: normal;
           color: #423E3B;
         }
           .city-description{
             margin: 15px auto 0;
             max-width: 550px;
             padding-bottom: 30px;
-            font-family: Georgia;
-            font-style: italic;
-            font-size: 18px;
-            line-height: 30px;
+            font: italic 400 18px/30px "Open Sans", sans-serif;
           }
             .city:nth-child(4n+3),
             .city:nth-child(4n+2) {
