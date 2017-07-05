@@ -56,6 +56,70 @@
     font-style: normal;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.woff?kxy2wq')
+  format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 160px;
+}
+
+.icon-san-francisco:before {
+  content: "\e900";
+}
+.icon-stockholm:before {
+  content: "\e901";
+}
+.icon-sydney:before {
+  content: "\e902";
+}
+.icon-tokyo:before {
+  content: "\e903";
+}
+.icon-wellington:before {
+  content: "\e904";
+}
+.icon-amsterdam:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-austin:before {
+  content: "\e906";
+}
+.icon-barcelona:before {
+  content: "\e907";
+}
+.icon-berlin:before {
+  content: "\e908";
+}
+.icon-cape-town:before {
+  content: "\e909";
+}
+.icon-dublin:before {
+  content: "\e90a";
+}
+.icon-london:before {
+  content: "\e90b";
+}
+.icon-new-york:before {
+  content: "\e90c";
+}
+.icon-paris:before {
+  content: "\e90d";
+}
+
 body, ul, li {
   margin: 0;
   padding: 0;
@@ -82,7 +146,7 @@ h1, h2{
     margin: auto;
   }
   .header-title{
-    margin: -30px auto 0;
+    margin: 0px auto 0;
     font-size: 36px;
     text-transform: uppercase;
     color: #fff;
