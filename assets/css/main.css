@@ -1,0 +1,101 @@
+body, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+
+}
+
+h1, h2{
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.header {
+  padding-bottom: 50px;
+  background: #423E3B;
+  text-align: center;
+}
+
+  .header-icon {
+    display: block;
+    width: 200px;
+    margin: auto;
+  }
+  .header-title{
+    margin: -30px auto 0;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+    .header-title::before,
+    .header-title::after{
+      content: "";
+      display: inline-block;
+      width: 10px;
+      height: 3px;
+      background: #fff;
+      vertical-align: middle;
+    }
+    .header-title::before{
+      margin-right: 10px;
+    }
+    .header-title::after{
+      margin-left: 10px;
+    }
+  .cities {
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0px;
+  }
+    .city {
+      flex: 1 0 50%;
+      text-align: center;
+      padding: 20px 0;
+    }
+      .city-img {
+        margin: 0 auto;
+        width: 150px;
+      }
+        .city-title{
+          margin: 10px 0 0;
+          font-size: 30px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          font-weight: normal;
+          color: #423E3B;
+        }
+          .city-description{
+            margin: 15px auto 0;
+            max-width: 550px;
+            padding-bottom: 30px;
+            font-family: Georgia;
+            font-style: italic;
+            font-size: 18px;
+            line-height: 30px;
+          }
+            .city:nth-child(4n+3),
+            .city:nth-child(4n+2) {
+            background: #d4d2d2 ;
+            }
+
+
+
+  .footer{
+    padding: 40px 0;
+    background: #423E3B;
+    text-align: center;
+  }
+  .footer-text{
+    margin: 0;
+    font-family: Georgia;
+    font-size:14px;
+    font-style: italic;
+    color:#fff;
+    line-height: 30px;
+  }
